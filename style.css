@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9ecef;
+  font-family: "Inter", sans-serif;
+}
+
+/* All things navigation */
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.menu-items {
+  display: flex;
+  gap: 30px;
+}
+.menu-items a {
+  text-decoration: none;
+  color: #495057;
+}
+.menu-items li {
+  list-style: none;
+}
+.menu-items a:hover {
+  font-weight: 500;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.get-started-btn:hover {
+  transform: translateY(-2px);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.pricing-panel {
+  background-color: #fff;
+  margin: 0 15px;
+  border-radius: 5px;
+  padding: 20px;
+}
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.panel-message {
+  text-align: center;
+}
+.message {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.comittment {
+  width: 20%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 5px 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  align-items: center;
+}
+.right-commit {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  width: 400px;
+}
+
+.plan-grouping {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.popular-pick {
+  background-color: #f76707;
+  color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.features {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.fa-check {
+  margin: 8px;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.plan-select-btn {
+  background-color: fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid #000;
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+}
+.plan-type {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.pricing {
+  font-weight: 600;
+  font-size: 32px;
+}
+.duration-terms {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
